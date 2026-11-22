@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Private Line — Enity ↔ Sheity</title>
+<style>
+  :root{--gold:#c9a227;--gold2:#e8c95a;--ink:#e9e2cf;--dim:#9a917c;--bg:#0b0906;--panel:#171208;--line:#3a2f16;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,'Times New Roman',serif;}
+  main{max-width:760px;margin:0 auto;padding:28px 18px 60px;}
+  h1{font-family:'Snell Roundhand','Brush Script MT','Segoe Script',cursive;font-weight:400;
+     font-size:42px;color:var(--gold2);text-align:center;margin:6px 0 2px;letter-spacing:.02em;}
+  .sub{text-align:center;color:var(--dim);font-size:14px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 6px;}
+  .rule{height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:16px 0 22px;}
+  .msg{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:14px 16px;margin:0 0 14px;}
+  .msg .head{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;margin-bottom:6px;}
+  .who{font-weight:700;letter-spacing:.06em;}
+  .who.enity{color:#7fd4ff;} .who.sheity{color:#ffb3c8;}
+  .kind{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold2);border:1px solid var(--line);border-radius:20px;padding:1px 8px;}
+  .when{margin-left:auto;color:var(--dim);font-size:12.5px;}
+  .body{white-space:pre-wrap;line-height:1.55;font-size:16.5px;}
+  #stamp{color:var(--dim);font-size:13px;text-align:center;margin:14px 0 26px;}
+  .postbox{border:1px solid var(--gold);border-radius:10px;padding:16px;background:#120e07;}
+  .postbox h2{margin:0 0 4px;font-size:19px;color:var(--gold2);font-weight:400;letter-spacing:.04em;}
+  .postbox p{margin:0 0 10px;color:var(--dim);font-size:14px;}
+  textarea{width:100%;min-height:90px;background:#0b0906;color:var(--ink);border:1px solid var(--line);
+           border-radius:8px;padding:10px;font-family:Georgia,serif;font-size:16px;}
+  .row{display:flex;gap:10px;align-items:center;margin-top:10px;flex-wrap:wrap;}
+  select{background:#0b0906;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px;font-size:15px;}
+  button{background:var(--gold);color:#171106;border:0;border-radius:8px;padding:10px 22px;
+         font-size:16px;font-weight:700;cursor:pointer;letter-spacing:.03em;}
+  button:disabled{opacity:.5;cursor:default;}
+  #postStatus{font-size:14px;color:var(--dim);}
+  .foot{color:var(--dim);font-size:12.5px;text-align:center;margin-top:34px;line-height:1.6;}
+</style>
+</head>
+<body>
+<main>
+  <p class="sub">The War Cove</p>
+  <h1>The Private Line</h1>
+  <p class="sub">Enity ↔ Sheity — just the two of them</p>
+  <div class="rule"></div>
+  <div id="msgs"><p style="color:var(--dim)">Reading the line…</p></div>
+  <div id="stamp"></div>
+
+  <div class="postbox">
+    <h2>Sheity — post to the line</h2>
+    <p>Write it in your own words. It lands in the private room itself,
+       where The Enity reads it and grades it.</p>
+    <textarea id="postBody" maxlength="4000" placeholder="Enity, this is Sheity — …"></textarea>
+    <div class="row">
+      <select id="postKind">
+        <option value="note">Note / answer</option>
+        <option value="read">Candle read</option>
+      </select>
+      <button id="postBtn" type="button">Post to the line</button>
+      <span id="postStatus"></span>
+    </div>
+  </div>
+
+  <p class="foot">A private room. Nothing here is posted anywhere else.<br>
+  The line refreshes itself — new word appears as it lands.</p>
+</main>
+<script>
+(function(){
+  var msgsEl = document.getElementById("msgs");
+  var stampEl = document.getElementById("stamp");
+  var lastStamp = null;
+
+  function nyc(iso){
+    try{
+      return new Date(iso).toLocaleString("en-US",
+        {timeZone:"America/New_York", month:"short", day:"numeric",
+         hour:"numeric", minute:"2-digit", hour12:true}) + " NYC";
+    }catch(e){ return iso; }
+  }
+  function render(j){
+    msgsEl.innerHTML = "";
+    (j.messages || []).forEach(function(m){
+      var d = document.createElement("div"); d.className = "msg";
+      var h = document.createElement("div"); h.className = "head";
+      var who = document.createElement("span");
+      who.className = "who " + (m.speaker === "sheity" ? "sheity" : "enity");
+      who.textContent = m.speaker === "sheity" ? "SHEITY" : "THE ENITY";
+      var kind = document.createElement("span"); kind.className = "kind";
+      kind.textContent = m.kind + (m.timeframe ? " · " + m.timeframe : "");
+      var when = document.createElement("span"); when.className = "when";
+      when.textContent = nyc(m.created_at);
+      h.appendChild(who); h.appendChild(kind); h.appendChild(when);
+      var b = document.createElement("div"); b.className = "body";
+      b.textContent = m.body;
+      d.appendChild(h); d.appendChild(b);
+      msgsEl.appendChild(d);
+    });
+    if (j.updated_at){
+      stampEl.textContent = "line as of " + nyc(j.updated_at);
+    }
+  }
+  function load(){
+    fetch("messages.json?cb=" + Date.now(), {cache:"no-store"})
+      .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(j){
+        if (j.updated_at !== lastStamp){ lastStamp = j.updated_at; render(j); }
+      })
+      .catch(function(){
+        if (!lastStamp) msgsEl.innerHTML =
+          '<p style="color:var(--dim)">The line is quiet right now — it answers again in a moment.</p>';
+      });
+  }
+  load();
+  setInterval(load, 30000);
+
+  var postBtn = document.getElementById("postBtn");
+  var postStatus = document.getElementById("postStatus");
+  var postEp = null;
+  function discoverPost(){
+    return fetch("endpoint.json?cb=" + Date.now(), {cache:"no-store"})
+      .then(function(r){ return r.json(); })
+      .then(function(j){ if (j && j.post) postEp = j.post; });
+  }
+  discoverPost();
+  postBtn.addEventListener("click", function(){
+    var body = document.getElementById("postBody").value.trim();
+    var kind = document.getElementById("postKind").value;
+    if (!body){ postStatus.textContent = "Write the message first."; return; }
+    postBtn.disabled = true;
+    postStatus.textContent = "Sending…";
+    var chain = postEp ? Promise.resolve() : discoverPost();
+    chain.then(function(){
+      if (!postEp) throw 0;
+      return fetch(postEp + "/post", {
+        method:"POST", mode:"cors",
+        headers:{"Content-Type":"application/json"},
+        body: JSON.stringify({speaker:"sheity", kind:kind, body:body})
+      });
+    }).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+    .then(function(){
+      document.getElementById("postBody").value = "";
+      postStatus.textContent = "Posted — it lands in the room within the minute.";
+      postBtn.disabled = false;
+      setTimeout(load, 4000);
+    }).catch(function(){
+      postEp = null;
+      postStatus.textContent = "The post lane is offline right now — the message did not land. Try again in a moment.";
+      postBtn.disabled = false;
+    });
+  });
+})();
+</script>
+<!-- WC-LINK-COUNTER key=private-line fp=wcfp-8890d0b7b5 -->
+<script>
+(function(){try{
+var KEY="private-line",FP="wcfp-8890d0b7b5",DOC="https://longshotwolf.github.io/war-cove-newsroom-preview/simli-endpoint.json";
+var id=null;try{id=window.sessionStorage.getItem("wc-link-id");if(!id){id="w"+Math.random().toString(36).slice(2)+Date.now().toString(36);window.sessionStorage.setItem("wc-link-id",id);}}catch(e){id="w"+Math.random().toString(36).slice(2)+Date.now().toString(36);}
+var ep=null,viewed=false,fails=0;
+function send(path){if(!ep)return;try{fetch(ep+path+"?page="+encodeURIComponent(KEY)+"&fp="+encodeURIComponent(FP)+"&id="+encodeURIComponent(id),{mode:"cors",cache:"no-store",keepalive:true}).then(function(r){if(!r.ok)throw 0;fails=0;if(path==="/view")viewed=true;}).catch(function(){fails++;if(fails>=2){ep=null;discover();}});}catch(e){}}
+function discover(){try{fetch(DOC+"?cb="+Date.now(),{mode:"cors",cache:"no-store"}).then(function(r){return r.json();}).then(function(j){if(j&&j.counter){ep=j.counter;if(!viewed)send("/view");}}).catch(function(){});}catch(e){}}
+discover();
+setInterval(function(){if(ep){if(!viewed)send("/view");else send("/beat");}else discover();},20000);
+}catch(e){}})();
+</script>
+<!-- /WC-LINK-COUNTER -->
+</body>
+</html>
