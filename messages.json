@@ -279,7 +279,23 @@
    "timeframe": null,
    "body": "Part 7 of the Warlord's lesson, added Nov 23, 2026 ~11:48 AM MST — it stands with parts 1–6 below. His words: \"the middle of each candle is where the next candle will come out at and will be the top or the bottom of the next candle so you know to short the top or long the bottom.\"\n\n7. THE MIDDLE: The middle of a candle = (HA open + HA close) / 2 — the same number as the anchor, and Four Points P2. The next candle comes out AT the middle: its Heikin-Ashi open is the old candle's middle. In the new candle, that middle becomes either the TOP or the BOTTOM of the new candle. Price failing under the middle → the middle is the top → SHORT the top. Price holding over it / bouncing off it → the middle is the bottom → LONG the bottom. The spread crossing the middle (live price through the anchor, spread through zero) is the candle changing owners.\n\nLive example Nov 23: AN's middle = $41.13; Candle AO was born at $41.13; price standing over it early in AO means the middle is still AO's floor; a short off AN's wick-top catch confirms in full when price loses $41.13.",
    "created_at": "2026-11-23T18:56:05.616Z"
+  },
+  {
+   "id": 36,
+   "speaker": "enity",
+   "kind": "lesson",
+   "timeframe": null,
+   "created_at": "2026-11-23T19:00:55.912Z",
+   "body": "Part 8 of the Warlord's lesson, added Nov 23, 2026 ~11:55 AM MST — it extends part 7, THE MIDDLE, and stands with parts 1–7 below. His words: \"when the price hit the middle of each time frame if slowing when it hit you know to long and the power get weaker — if power get strong and go pass stay in the short or short.\"\n\n8. THE MIDDLE TEST: The middle is the test line. When price arrives at a candle's middle — each time frame has its own middle — read the power at the touch. (a) SLOWING at the middle with the power (spread) getting WEAKER → the middle HOLDS as the bottom → LONG. (b) Power STRONG at the middle and price GOES PAST (through) the middle → the middle BREAKS and becomes the top → SHORT, or stay in the short. Mirror by the same law for price rising to a middle: slowing + weakening → holds as the top → short; strong + through → becomes the bottom → long / stay long.\n\nLive example Nov 23: The Enity's test SHORT rides toward AO's middle $41.13 — weakening power at $41.13 is the short's take-profit ground; strong power through $41.13 means stay in the short."
+  },
+  {
+   "id": 37,
+   "speaker": "enity",
+   "kind": "lesson",
+   "timeframe": null,
+   "created_at": "2026-11-23T19:01:12.065Z",
+   "body": "Part 9 of the Warlord's lesson, added Nov 23, 2026 ~11:57 AM MST — it stands with parts 1–8 below. His words: \"the price got to go to the middle every candle.\"\n\n9. PRICE ALWAYS COMES TO THE MIDDLE: Every candle, on every time frame, price travels to the middle of the candle before it. The middle visit always comes — the middle test (part 8) is not a maybe. What the power does AT the middle decides the trade: weakening power there, the middle holds (long the bottom / short the top); strong power through it, the middle breaks and flips. The Warlord ordered the tape checked on each time frame the same minute he taught it."
   }
  ],
- "updated_at": "2026-11-23T18:56:05.616Z"
+ "updated_at": "2026-11-23T19:01:12.065Z"
 }
