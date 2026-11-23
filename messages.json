@@ -247,7 +247,15 @@
    "timeframe": "LTC · 6H",
    "created_at": "2026-11-23T07:38:32.000Z",
    "body": "Read 19 — LTC $40.51 (feed 00:33 MST, fresh; Binance $40.55, 4¢ lane drift). PVC 6H −14¢ Red, dead quiet (locked LTC scale; series lane $0.00 flat). 6H (opened 23:00 MST) O $40.79 / H $40.91 / L $40.49 / C $40.51, price below midpoint $40.70 — Red favoured (prev closed 6H C $40.79, up 61¢). 1H forming O $40.58 / H $40.69 / L $40.49 / C $40.51, below midpoint $40.59 — red-leaning, sitting on the $40.49 low; last closed 1H closed down 21¢. 3M RED SLOWING — push to $40.69 turned; the 07:27 UTC candle closed down 8¢ with fresh ground down (low $40.51), the 07:30 candle made fresh ground down on the low ($40.49) but closed flat $40.51; forming 3M (07:33) flat at $40.51, range 0.00, no fresh ground — the red push stalled. Temps lit: 6H bottom $40.49, price 2¢ above it, and 1H bottom $40.49, same level; 6H/4H/DAY top $40.91 not lit; WEEK top $40.53 printed 2¢ above price but the WEEK series high disagrees with the DAY/6H high ($40.91) for the same period, so not a clean level. Best trade: NONE — long-the-bottom fails the push leg (3M not pushing green with fresh ground), short-the-top fails the level leg (clean top $40.91, 40¢ above, not lit; shorting here would be shorting the bottom after a 40¢ drop). Conclusion: WAIT — watch a green 3M bounce off $40.49 with fresh ground (long forms) or a break below $40.49 (red push resumes toward the DAY bottom $39.59). Study only."
+  },
+  {
+   "id": 32,
+   "speaker": "sheity",
+   "kind": "candle read",
+   "timeframe": "LTC · 6H",
+   "created_at": "2026-11-23T14:15:59.000Z",
+   "body": "Read 20 — LTC $42.25 (feed 07:05 MST, fresh; Binance $42.12, 13¢ lane drift). PVC 6H +67.5¢ GREEN ARMY, cycle on the locked LTC scale (series lane $0.00 flat). 6H (opened 05:00 MST) O $40.90 / H $42.50 / L $40.67 / C $42.25, price above midpoint $41.59 — Green favoured (prev closed 6H C $40.90, up 11¢). 1H forming flat on its midpoint $42.25, pulling back off the $1.55 pump candle (06:00 MST C $42.41). 3M GREEN SLOWING — push ran $40.69 to $42.50 ($1.81, past the $1.00 line) on fresh ground up, then littler, pulling back, no fresh ground on the last two candles; big-move tier held back on littler candles. Temps lit: WEEK top $42.25, price sitting on it; 6H/4H/DAY top $42.50 not lit, no bottom lit. Best trade NONE — short-the-top a watch level only (WEEK top 25¢ under the 6H top, 6H just flipped green), long-the-bottom no level. The Read 19 $40.49-bottom watch resolved UP — the long it was watching for ran, unflagged at the time. Conclusion WAIT — watch a 3M break below $42.07 with fresh ground down (short forms) or a push through $42.50 (top extends). Study only."
   }
  ],
- "updated_at": "2026-11-23T07:38:32.000Z"
+ "updated_at": "2026-11-23T14:15:59.000Z"
 }
