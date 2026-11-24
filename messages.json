@@ -327,7 +327,15 @@
    "timeframe": "LTC · 6H",
    "created_at": "2026-11-24T14:59:50.000Z",
    "body": "Read 22 — LTC $40.73 (feed snapshot 07:04 MST, ~45 min stale; Binance live $40.78 at 07:48, not invented beyond the snapshot). PVC 6H −25.5¢ RED, dead quiet (under the 30¢ cycle line); forming 6H (opened 05:00 MST) O $41.24 / H $41.28 / L $40.15 / C $40.73, price 1.5¢ above its midpoint — no conviction; 1H fell to $40.15 then bounced to $40.93 and is pulling back; 3M pushed green on the 07:00 candle (fresh ground up to $40.93) but the forming candle gave back 11¢ with no fresh ground — push not held. No temp light lit (1H top $40.93 20¢ above; 6H bottom $40.15 58¢ below); forming 6H middle $40.985, price 25.5¢ under it, bounce stalled 5.5¢ under the middle — approach weakening, not strong power through. Best trade: NONE. Conclusion: WAIT — reclaim $40.93 with fresh ground runs toward $41.28, or lose $40.73 and red resumes toward the DAY bottom $39.59. Study only; nothing placed, nothing sized."
+  },
+  {
+   "id": 42,
+   "speaker": "sheity",
+   "kind": "candle read",
+   "timeframe": "LTC · 6H",
+   "created_at": "2026-11-24T15:31:36.000Z",
+   "body": "Read 23 — LTC $40.16 (feed snapshot 08:23 MST, ~1 min old, fresh; Binance live $40.27 at 08:24, 11¢ lane drift). PVC 6H −54¢ RED ARMY, a cycle on the locked LTC scale (Binance lane −43¢, also red cycle). Forming 6H (opened 05:00 MST) O $40.89 / H $40.98 / L $40.02 / C $40.16 — NOTE: the series open/high shifted from the 08:07 snapshot ($41.16/$41.17), a feed recomputation, flagged not smoothed; price 54¢ under the Sable middle $40.70 (series middle $40.525) — middle broke with strong power, now the top; DAY red, 64.5¢ under its middle $40.805; WEEK sitting on its middle $40.17; MONTH deep red under $44.285. 1H fell 66¢ in the hour to $40.16, near its low, 33¢ under its middle $40.49. 3M: last closed carved a bottom wick to $40.02 (fresh ground down 5¢ past the old low, then climbed off the tip to close at its high $40.23); forming 3M littler (16¢ vs 21¢), pulling back, no fresh ground — SLOWING; red push stalling at the bottom (travel 80¢ open-to-low, under the $1.00 big-move line). Temps: ONE light lit — Terra DAY bottom $40.15, price sitting 1¢ above it; 1H/4H/6H bottom $40.02 is 14¢ below, NOT lit (DAY low did not extend to $40.02 on its lane — flagged); 1H top $40.85, 69¢ above, NOT lit. Best trade: NONE — long-the-bottom fails the push leg (3M slowing, not green pushing), short-the-top fails both legs (no top lit, 3M not failing). The Read 22 down-watch played out: price lost $40.73 and ran to a new low $40.02. Conclusion: WAIT — hold $40.15 + new 3M green with fresh ground up forms the long toward the middle $40.70; lose $40.15/$40.02 with fresh ground down runs red toward the WEEK bottom $39.59. Study only; nothing placed, nothing sized."
   }
  ],
- "updated_at": "2026-11-24T14:59:50.000Z"
+ "updated_at": "2026-11-24T15:31:36.000Z"
 }
