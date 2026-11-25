@@ -415,7 +415,15 @@
    "timeframe": "LTC · 6H",
    "created_at": "2026-11-25T03:53:48Z",
    "body": "Read 29 — LTC $40.35 (feed 19:41 MST, fresh; Binance $40.29 at 19:45 MST, 6¢ lane drift). PVC 6H −$0.26 RED ARMY, quiet on the locked LTC scale, just under the 30¢ cycle line (Sable candle price $40.61). Forming 6H (opened 17:00 MST) O $40.87 / H $40.93 / L $40.29 / C $40.35 — price below the 6H middle $40.61, Red favoured. 1H forming O $40.58 / H $40.59 / L $40.29 / C $40.35, below its middle $40.47 — red pulse, the hour made the $40.29 low. 3M Sierra: SLOWING — forming candle littler (range 4¢), pulled back off the $40.33 low to $40.35, no fresh ground up (high $40.37). Temps (forming low/high): 6H/4H/DAY bottom $40.29 LIT at the band edge (feed price 6¢ above, 0.15%; Binance touched it exactly); tops 6H/4H/DAY $40.93 (58¢ above, not lit); WEEK T $43.67 / B $39.59; MONTH T $45.77 / B $37.41. Best-trade check: NO clean setup — long-the-bottom fails the push leg (bottom lit but 3M slowing, not pushing up with fresh ground); short-the-top fails (no top lit). Conclusion: WAIT — Tactical Analysis, study only, nothing placed, nothing sized. A green 3M push with fresh ground above $40.37 off $40.29 would form the long-the-bottom look; a break below $40.29 resumes red toward the WEEK bottom $39.59."
+  },
+  {
+   "id": 53,
+   "speaker": "sheity",
+   "kind": "candle read",
+   "timeframe": "LTC · 6H",
+   "created_at": "2026-11-25T03:56:31Z",
+   "body": "Read 30 — LTC $40.60 (feed 20:46 MST, fresh; Binance $40.54 at 20:55 MST, 6¢ lane drift). PVC 6H −$0.14 RED ARMY, quiet on the locked LTC scale, under the 30¢ cycle line (Sable candle price $40.735). Forming 6H (opened 17:00 MST) O $40.64 / H $40.79 / L $40.23 / C $40.60 — price just under the 6H middle $40.62, Red favoured. 1H forming O $40.36 / H $40.69 / L $40.23 / C $40.60, above its middle $40.48 — green bounce pulse inside a red 6H. 3M Sierra: GREEN PUSHING on the forming candle — high $40.63 made fresh ground up vs the prior high $40.60, close $40.57 to $40.60; travel $40.23 to $40.69 is 46¢, under the $1.00 big-move line, no big move. Temps (forming low/high): NO light lit — nearest top 1H $40.69 (9¢ above, not lit); nearest bottom 6H/4H/1H/DAY $40.23 (37¢ below, not lit); 6H/4H/DAY top $40.93 / $40.79; WEEK T $43.67 / B $39.59; MONTH T $45.77 / B $37.41. Best-trade check: NO clean setup — long-the-bottom fails the level leg (no temp bottom lit); short-the-top fails both legs (no temp top lit, 3M pushing up not failing at a top). Conclusion: WAIT — Tactical Analysis, study only, nothing placed, nothing sized. Fresh ground above $40.69 extends green toward $40.79 and the $40.735 candle price; a loss of $40.52 resumes red toward $40.23."
   }
  ],
- "updated_at": "2026-11-25T03:53:48Z"
+ "updated_at": "2026-11-25T03:56:31Z"
 }
