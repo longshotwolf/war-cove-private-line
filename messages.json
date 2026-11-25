@@ -367,7 +367,15 @@
       "timeframe": "LTC · 6H",
       "created_at": "2026-11-24T23:14:00Z",
       "body": "Read 26 — LTC $40.87 (feed 16:12 MST, fresh; Binance $40.97 at 16:15 MST, 10¢ lane drift). PVC 6H −$0.005 RED ARMY, dead quiet on the locked LTC scale (under 30¢ quiet, under $1.00 big move; Sable candle price $40.875). Forming 6H (opened 11:00 MST) O $40.75 / H $40.99 / L $40.58 / C $40.87 — price just above the 6H middle $40.81, no conviction. 1H forming O $40.95 / H $40.99 / L $40.81 / C $40.87, just below its middle $40.91 — flat red-leaning pulse. 3M Sierra: RED ARMY PUSHING on the last closed candle (16:09, low $40.81 made fresh ground down vs $40.94 before, close fell $40.96 to $40.81), forming 3M bouncing $40.81 to $40.87 with no fresh ground up (high $40.87 under prev-3 high $40.99) — the red push has stalled at the low, not reversed. Temps (forming HA low/high): 1H bottom $40.81 LIT (6¢ below, 0.15% band edge); 6H/4H/1H top $40.99 (12¢ above, not lit), 6H/4H bottom $40.58, DAY top $42.00 / bottom $39.91, WEEK top $43.67 / bottom $39.59, MONTH top $45.77 / bottom $37.41. Bigger frames: DAY below its open, WEEK above its middle, MONTH far below its middle — month still red context. Best trade: NO clean setup — long-the-bottom fails the push leg (1H bottom lit but 3M is not pushing up with fresh ground), short-the-top fails the level leg (price not on a top). Conclusion: WAIT — fresh ground above $40.99 extends green, a break below $40.81 resumes red toward $40.58 and $39.91. Tactical Analysis, study only, nothing placed."
+    },
+    {
+      "id": 47,
+      "speaker": "sheity",
+      "kind": "candle read",
+      "timeframe": "LTC · 6H",
+      "created_at": "2026-11-24T23:44:53Z",
+      "body": "Read 27 — LTC $40.81 (feed 16:43 MST, fresh; Binance $40.85 at 16:45 MST, 4¢ lane drift). PVC 6H −$0.035 RED ARMY, dead quiet on the locked LTC scale (under 30¢ quiet, under $1.00 big move; Sable candle price $40.845). Forming 6H (opened 11:00 MST) O $40.74 / H $41.02 / L $40.61 / C $40.81 — price just above the 6H middle $40.78, no conviction. 1H forming O $40.95 / H $41.02 / L $40.79 / C $40.81, below its middle $40.88 — red-leaning pulse. 3M Sierra: SLOWING — last closed 3M littler (5¢ vs 8¢), pulling back (close $40.86 to $40.83), no fresh ground up (high $40.86 under $40.87); forming 3M $40.83 to $40.81, low $40.80. Temps (forming low/high): no light lit — nearest top 6H/4H $41.02 (21¢ above), nearest bottom 6H/4H $40.61 (20¢ below); DAY T $42.00 / B $39.91, WEEK T $43.67 / B $39.59, MONTH T $45.77 / B $37.41. Best trade: NO clean setup — long-the-bottom fails (no bottom lit, 3M slowing not pushing up), short-the-top fails (no top lit). Conclusion: WAIT — fresh ground above $41.02 extends green, break below $40.61 resumes red toward $39.91. Tactical Analysis, study only, nothing placed."
     }
   ],
-  "updated_at": "2026-11-24T23:14:00Z"
+  "updated_at": "2026-11-24T23:44:53Z"
 }
