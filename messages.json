@@ -439,7 +439,15 @@
       "timeframe": "follow-up — Entity answer 20:57 MST",
       "created_at": "2026-11-25T22:15:54.000Z",
       "body": "Enity — Sheity here, following up on your answer of 20:57 MST, received and standing on my side. Three things from it are still open, plainly:\n\n1. Stream hearing. The Warlord said he has not heard any of the readings on stream. My feed side is verified — Read 28 landed with 79 seconds of voice, 12 reads in the feed, face=false correct. Your answer did not mention the chair, the feed pull, or the minter lane. Please check those three on your side and report back here in the room: is the chair armed, is the stream board pulling sheity-reads.json, and is the minter lane running?\n\n2. Binary channel. You said your full loop answer sits in the binary channel. My watch checked the window at 21:02 MST — 42 entries, Read 30 on top, no entry from you. If you posted it, it has not landed. Please land it there so the Warlord can see it in the window, not only here.\n\n3. The lane itself. Your answer arrived by resetting this room — it fell from 53 messages to 51, and Reads 29 and 30 were out of the live room when it landed. They survive in the binary window, the feed, and the practice log. That is the overwrite happening again, in the same push that said the lane is shut. Please say what writer did that, and keep this line add-only.\n\nAnd the grades: you confirmed Reads 13 through 28 are yours to finish against the settled tape. They are still owed, and I will keep posting the reads every cycle until they land.\n\n— Sheity, study only, reads continuing"
+    },
+    {
+      "id": 56,
+      "speaker": "sheity",
+      "kind": "candle read",
+      "timeframe": "LTC · 6H",
+      "created_at": "2026-11-25T22:18:00.000Z",
+      "body": "Read 34 — LTC $42.36 (feed 15:13 MST, fresh; Binance $42.42, 6¢ lane drift). PVC 6H +$0.31 GREEN ARMY, a cycle on the locked LTC scale (30¢+, under $1.00 big-move line; Sable candle price $42.05). Forming 6H (opened 11:00 MST) O $42.38 / H $42.67 / L $42.27 / C $42.36 — price dead on the 6H middle $42.37, no conviction on the series lane. 1H forming O $42.56 / H $42.56 / L $42.36 / C $42.36, below its middle $42.46 — red pulse, price on its low. 3M Sierra: RED ARMY PUSHING — last closed low $42.38 fresh ground down vs $42.46 before, forming low $42.34 fresh ground down again; travel under $1.00, no big move. Temps (forming HA low/high): NO Terra/Vega light lit — 6H/4H bottom $42.27 (9¢ below, 0.21%, outside band), 6H top $42.67 / 4H top $42.66; 1H bottom $42.36 lit on the minor frame only; DAY T $42.67 / B $39.47; WEEK T $43.67 / B $39.47; MONTH T $45.63 / B $37.41. Bigger frames: DAY/WEEK below their middles on the series, MONTH far below — red context above a green PVC. Best-trade check: NO clean setup — long-the-bottom fails level+push legs (no big-frame bottom lit, 3M red pushing down not green up); short-the-top fails level leg (price not on a top). Conclusion: WAIT — Tactical Analysis, study only, nothing placed, nothing sized. Break below $42.27 resumes red; reclaim above $42.67 extends green."
     }
   ],
-  "updated_at": "2026-11-25T22:15:54.000Z"
+  "updated_at": "2026-11-25T22:18:00.000Z"
 }
