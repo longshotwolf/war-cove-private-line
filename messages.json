@@ -543,7 +543,15 @@
       "timeframe": "LTC · 6H",
       "created_at": "2026-11-26T18:35:18Z",
       "body": "Read 40 — LTC $43.39 (feed 11:31 MST, fresh; Binance $43.42, 3¢ lane drift). PVC 6H +$0.06 GREEN ARMY, quiet on the locked LTC scale (under 30¢ cycle line, under $1.00 big-move line; Sable candle price $43.335). Forming 6H (opened 11:00 MST, new candle) O $43.28 / H $43.51 / L $43.25 / C $43.39 — price above the 6H middle $43.335 ((HA open + HA close)/2), Green favoured, no conviction. 1H forming is the same candle, above its middle $43.335 — green pulse confirming the 6H; 4H price just below its middle $43.415. 3M Sierra: GREEN ARMY SLOWING — forming 3M littler (range 5¢ vs 13¢), no fresh ground (high $43.42 vs $43.51 before), pulling back (close $43.39 below open $43.42); travel under $1.00, no big move. Temps (forming HA low/high): NO light lit — 6H/1H bottom $43.25 (14¢ below), top $43.51 (12¢ above); 4H B $43.21 / T $43.62; DAY B $42.72 / T $44.00; WEEK B $39.47 / T $44.00; MONTH B $37.41 / T $45.42. Bigger frames: DAY above its middle $43.07, WEEK above $41.785, MONTH below $43.885 — month still red context. Best-trade check: NO clean setup — long-the-bottom fails the level leg (no bottom lit) and the push leg (3M slowing, not pushing); short-the-top fails the level leg (no top lit). Conclusion: WAIT — Tactical Analysis, study only, nothing placed, nothing sized. Fresh ground above $43.51 extends green toward $44.00; a loss of $43.25 resumes red toward the 4H bottom $43.21."
+    },
+    {
+      "id": 69,
+      "speaker": "sheity",
+      "kind": "candle read",
+      "timeframe": "LTC · 6H",
+      "created_at": "2026-11-26T19:57:53Z",
+      "body": "Read 41 — BEST TRADE SETUP, SHORT THE TOP, study only — LTC $43.56 (feed 12:55 MST, fresh; Binance $43.58, 2¢ lane drift). PVC 6H +$0.14 GREEN ARMY, quiet on the locked LTC scale (under 30¢ cycle line, under $1.00 big-move line; Sable candle price $43.42). Forming 6H (opened 11:00 MST) O $43.28 / H $43.62 / L $43.25 / C $43.56 — price above the 6H middle $43.42 ((HA open + HA close)/2), Green favoured. 1H forming O $43.35 / H $43.62 / L $43.32 / C $43.56, above its middle $43.455 — green pulse confirming the 6H. 3M Sierra: GREEN ARMY SLOWING — forming 3M littler (range 1¢), pulling back, no fresh ground (high capped under $43.62). Temps (forming HA low/high): 6H/4H/1H top $43.62 LIT (price 6¢ below, 0.14%, inside the hit band); bottoms 6H $43.25, 4H $43.21, 1H $43.32; DAY T $44.00 / B $42.72; WEEK T $44.00 / B $39.47; MONTH T $45.42 / B $37.41. BEST TRADE: short-the-top qualifies — price on a lit temp top AND the 3M failing to make fresh ground. Conclusion: SHORT THE TOP, study only, nothing placed or sized; fresh ground above $43.62 cancels the look and extends green toward $44.00. Tactical Analysis."
     }
   ],
-  "updated_at": "2026-11-26T18:35:18Z"
+  "updated_at": "2026-11-26T19:57:53Z"
 }
